@@ -1,4 +1,4 @@
-# Perceptron-based-Image-classification
+# Perceptron-based Image classification
 Designing a Perceptron-based classification algorithm that can recognize scanned images of the 10 digits (0 to 9)
 
 The "Dataset" zip file contains three folders: “Train”, “Validation” and “Test”.
