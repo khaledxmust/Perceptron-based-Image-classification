@@ -12,4 +12,5 @@ Requirements:
 3) Use the data in the “Validation” folder to find the value of η that achieves the best accuracy for each digit classifier. Use the best classifier of each digit to classify the data in the “Test” folder. The “Validation” folder also contains a text file named “Validation Labels.txt” which include the labels of the 200 images in order.
 
 Important Notes:
+
 • Do not use Python built-in functions for the Perceptron. You have to implement your own version of all needed functions. You are only allowed to use functions that load images into Python.
