@@ -9,7 +9,7 @@ np.set_printoptions(threshold=np.inf) #Printing Threshold
 
 #%% Part One - Training
 
-Train_Path='C:\\Users\\khled\\Dropbox\\Masters\\Courses\\xDone\\Machine Learning\\Assigments\\Assignment 1\\Train'
+Train_Path='Train'
 os.chdir(Train_Path)
 Training_Labels = np.loadtxt('Training Labels.txt')
 files=os.listdir(Train_Path)
@@ -67,7 +67,7 @@ for x in range(0,2000): #Takes Avarage of 4 Days to "Run" (Needed for Conversion
 
 #%% Part Two - Testing
 
-Test_Path='C:\\Users\\khled\\Dropbox\\Masters\\Courses\\xDone\\Machine Learning\\Assigments\\Assignment 1\\Test'
+Test_Path='Test'
 os.chdir(Test_Path)
 Test_Labels = np.loadtxt('Test Labels.txt')
 files=os.listdir(Test_Path)
@@ -120,7 +120,7 @@ plt.show()
 
 #%% Part Three - Validation
 
-Validation_Path='C:\\Users\\khled\\Dropbox\\Masters\\Courses\\xDone\\Machine Learning\\Assigments\\Assignment 1\\Validation'
+Validation_Path='Validation'
 os.chdir(Validation_Path)
 Validation_Labels = np.loadtxt('Validation Labels.txt')
 files=os.listdir(Validation_Path)
