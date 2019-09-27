@@ -13,4 +13,6 @@ Requirements:
 
 Important Notes:
 
-• Do not use Python built-in functions for the Perceptron. You have to implement your own version of all needed functions. You are only allowed to use functions that load images into Python.
+• Do not use Python built-in functions for the Perceptron. You have to implement your own version of all needed functions.
+You are only allowed to use functions that load images into Python.
+• I've done most of the work but there is issue in Training part causing all test images classfied as part of zero class, So anyone welcomed editing this part.
